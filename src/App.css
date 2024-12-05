@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: "Merel";
+  src: url("../src/fonts/Merel.woff2");
+}
+
+.container {
+  padding: 0 50px;
+  transition: all 500ms linear;
+}
+
+
+.dark {
+  background-color: #1b1b1b;
+  color: #fff;
+}
+
+.light {
+  background-color: #fff;
+  color: #000;
+}
+
+#root {
+  min-height: 100vh;
+}

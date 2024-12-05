@@ -1,0 +1,15 @@
+.logo {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo img {
+  width: 40%;
+}
+
+.logo span {
+  font-family: Merel;
+  font-size: 20px;
+}
