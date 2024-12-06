@@ -10,6 +10,7 @@ import BeanPage from "./pages/Bean";
 import Layout from "./components/Layout";
 import Loader from "./components/Loader";
 import Review from "./pages/Review";
+import About from "./pages/About";
 
 
 const router = createBrowserRouter([
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
         { path: 'bean/:beanId', element: <BeanPage /> },
         { path: 'recipes', element: <Recipes /> },
         { path: 'combinations', element: <Combinations /> },
+        { path: 'about', element: <About /> },
         { path: 'review', element: <Review /> },
         { path: "*", element: <NotFound /> },
       ],
